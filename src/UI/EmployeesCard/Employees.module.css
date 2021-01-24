@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.EmployeeCard {
+  width: 15rem;
+  height: 17rem;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  line-height: 2;
+  margin: 2rem;
+  background-color: #a6c5e1;
+  margin: 3.7rem;
+  transition: all 0.15s linear;
+}
+
+.EmployeeCard h3 {
+  margin: 2rem;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: 550;
+  word-wrap: break-word;
+}
+
+.EmployeeCard:hover {
+  box-shadow: rgb(43, 43, 43) 0px 2px 7px, rgb(43, 43, 43) 0px 2px 7px;
+  transform: scale(1.01);
+}
